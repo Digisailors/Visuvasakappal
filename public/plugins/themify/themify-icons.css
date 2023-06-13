@@ -28,6 +28,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 .ti-wand:before {
     content: "\e600";
 }
@@ -1413,7 +1414,7 @@
 }
 
 .ti-email:before {
-    content: "\e75a";
+    content:"\e755";
 }
 
 .ti-drupal:before {

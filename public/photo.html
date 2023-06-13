@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-1.css">
+    <link rel="icon" href="images/favicon.jpeg" type="image/x-icon" />
+</head>
+<body>
+    
+    <style>
+.gallery
+{
+    width:100%;
+   
+	
+}
+.gallery div{
+width:100%;
+margin-left:4%;
+} 
+.gallery img
+{
+    border-radius: 15px;
+	height:30%;
+    width:30%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#CloseButton
+{
+	position:absolute;
+	top:12px;
+	right:12px;
+	font-size:2rem;
+	color:rgb(95, 92, 92);
+	cursor:pointer;
+}
+
+    </style>
+     <h2>Photo Gallery</h2>
+     <div class="gallery">
+        <div>
+        <img  src="images/our-work/construct/pics1.jpg" onclick="fullview(this.src)" alt="">
+        <img   src="images/our-work/construct/pics2.jpg" onclick="fullview(this.src)" alt="">
+        <img   src="images/our-work/construct/pics3.jpg" onclick="fullview(this.src)" alt="">
+        <img   src="images/our-work/construct/pics4.jpg" onclick="fullview(this.src)" alt="">
+        <img   src="images/our-work/construct/pics5.jpg" onclick="fullview(this.src)" alt="">
+        <img   src="images/our-work/construct/pics4.jpg" onclick="fullview(this.src)" alt="">
+
+    </div>
+ 
+   <a href="index.html"><span id="CloseButton">&times;</span></a>
+    </div>
+</body>
+</html>
